@@ -45,13 +45,14 @@ nav a:hover {
 
 .hero {
   background: linear-gradient(to right, #a8edea, #d0bdf4);
-  text-align: center;
   padding: 60px 20px;
+  text-align: center;
 }
 
 .hero h2 {
   font-size: 2.5em;
   margin-bottom: 20px;
+  color: #222;
 }
 
 .hero button {
@@ -74,7 +75,7 @@ nav a:hover {
   justify-content: center;
   gap: 20px;
   padding: 40px 20px;
-  background: linear-gradient(to right, #9fe7d0, #b78cf0);
+  background: linear-gradient(to right, #9fe7d0, #b78cf0); /* seafoam to purple */
 }
 
 .image-box {
@@ -93,8 +94,8 @@ nav a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 8px;
   display: block;
+  border-radius: 8px;
 }
 
 footer {
@@ -105,6 +106,10 @@ footer {
   font-size: 0.9em;
 }
 
+ 
+
+ 
+ 
 
 
 
