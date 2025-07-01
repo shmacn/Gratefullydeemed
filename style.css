@@ -45,9 +45,6 @@ nav a:hover {
 
 .hero {
   background: linear-gradient(to right, #a8edea, #d0bdf4);
-  padding: 60px 20px;
-  text-align: center;
-  color: #222;
 }
 
 .hero h2 {
@@ -80,18 +77,17 @@ nav a:hover {
 }
 
 .image-box {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.6); /* more visible semi-white */
   width: 30%;
   height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  border: 2px dashed #888;
+  border: 2px dashed #aaa;
   color: #222;
-  text-align: center;
-  font-size: 1.1em;
 }
+
 
 footer {
   background-color: #222;
