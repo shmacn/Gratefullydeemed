@@ -86,14 +86,16 @@ nav a:hover {
 }
 
 .image-box {
-  background-color: rgba(255, 255, 255, 0); /* fully transparent */
+  background: linear-gradient(to bottom right, #9fffe0, #c190f5); /* seafoam to purple */
   width: 30%;
-  max-width: 200px;
   height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
   border: 2px dashed #aaa;
+  color: #222;
+  text-shadow: 1px 1px 2px #fff;
 }
 
 
