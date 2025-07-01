@@ -45,6 +45,8 @@ nav a:hover {
 
 .hero {
   background: linear-gradient(to right, #a8edea, #d0bdf4);
+  text-align: center;
+  padding: 60px 20px;
 }
 
 .hero h2 {
@@ -91,17 +93,9 @@ nav a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 8px;
   display: block;
 }
-
-.image-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-
 
 footer {
   background-color: #222;
@@ -110,11 +104,9 @@ footer {
   padding: 30px 20px;
   font-size: 0.9em;
 }
-.image-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-}
 
 
+
+ 
+
+ 
