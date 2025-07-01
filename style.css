@@ -78,24 +78,21 @@ nav a:hover {
 .gallery {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding: 60px 20px;
+  padding: 40px 20px;
   gap: 20px;
-  background: linear-gradient(to right, #a8edea, #c3aed6, #957dad);
-  min-height: 220px; /* ensures gradient area is visible */
+  background: linear-gradient(to right, #9fe7d0, #b78cf0); /* seafoam to purple */
 }
 
 .image-box {
-  background: linear-gradient(to bottom right, #9fffe0, #c190f5); /* seafoam to purple */
+  background-color: rgba(255, 255, 255, 0.3); /* semi-transparent white */
   width: 30%;
-  height: 180px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
   border: 2px dashed #aaa;
   color: #222;
-  text-shadow: 1px 1px 2px #fff;
 }
 
 
