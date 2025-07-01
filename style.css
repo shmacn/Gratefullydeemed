@@ -1,56 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gratefully Deemed Arts</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background: #fffdf5;
+  color: #333;
+}
 
-<header>
-  <img src="https://i.imgur.com/d75MuGV.png" alt="Gratefully Deemed Logo" class="banner-logo" />
-  <p class="brand-bio">
-    Gratefully Deemed Arts is a visionary brand channeling psychedelic energy into color, form, and fabric. Our core is one-of-a-kind tie dye rituals of wearable light—supported by digital and fine art that echoes the same frequency. Each creation is a transmission of intention and presence—<strong>Gratefully Dyed, Deeply Deemed.</strong>
-  </p>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Shop</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-  </nav>
-</header>
+header {
+  background: linear-gradient(to right, #a8edea, #d0bdf4);
+  padding: 40px 20px;
+  text-align: center;
+}
 
-<section class="hero">
-  <h2>Hand-dyed apparel & art</h2>
-  <button>Shop Now</button>
-</section>
+.banner-logo {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
 
-<section class="gallery">
-  <div class="image-box">
-    <img src="https://i.imgur.com/defVJxy.png" alt="Tie Dye 1" />
-  </div>
-  <div class="image-box">
-    <img src="https://i.imgur.com/f8Fhae5.png" alt="Tie Dye 2" />
-  </div>
-  <div class="image-box">
-    <img src="https://i.imgur.com/uDH7rlR.png" alt="Tie Dye 3" />
-  </div>
-  <div class="image-box">
-    <img src="https://i.imgur.com/ysyCDew.jpeg" alt="Tie Dye 4 (Updated)" />
-  </div>
-  <div class="image-box">
-    <img src="https://i.imgur.com/57i3z0a.png" alt="Tie Dye 5" />
-  </div>
-</section>
+.brand-bio {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #5a4a3f;
+  padding: 0 20px;
+  text-align: center;
+}
 
-<footer>
-  <p>&copy; 2025 Gratefully Deemed Arts</p>
-  <p>Follow us on: Facebook | Instagram | TikTok</p>
-</footer>
+nav {
+  margin-top: 20px;
+}
 
-</body>
-</html>
+nav a {
+  margin: 0 15px;
+  color: #8a4fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  background: linear-gradient(to right, #a8edea, #d0bdf4);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: #ff6600;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.hero button:hover {
+  background-color: #cc5200;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #9fe7d0, #b78cf0);
+}
+
+.image-box {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 2px dashed #aaa;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 0.9em;
+}
+
+
 
 
 
