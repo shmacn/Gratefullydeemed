@@ -81,8 +81,9 @@ nav a:hover {
   justify-content: space-around;
   padding: 40px 20px;
   gap: 20px;
-  background-color: #faf3ec;
+  background: linear-gradient(to right, #9fffe0, #b66aff); /* seafoam to purple */
 }
+
 
 .image-box {
   background-color: #ddd;
