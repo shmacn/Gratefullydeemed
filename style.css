@@ -46,6 +46,10 @@ nav a:hover {
 
 .hero {
  background: linear-gradient(to right, #a8edea, #d0bdf4);
+ padding: 60px 20px;
+  text-align: center;
+}
+
 
 
   padding: 60px 20px;d: linear-gradient(
