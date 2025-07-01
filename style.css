@@ -82,7 +82,9 @@ footer {
   padding: 0 10px;
 }
 .banner-logo {
-  width: 180px;
+  width: 120px;
   height: auto;
-  margin-bottom: 15px;
+  margin: 0 auto 15px auto;
+  display: block;
 }
+
