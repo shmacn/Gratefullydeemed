@@ -6,7 +6,8 @@ body {
 }
 
 header {
- background: linear-gradient(to right, #ffecd2, #fcb69f);
+ background: linear-gradient(to right, #a8edea, #d0bdf4);
+
 
   padding: 40px 20px;
   text-align: center;
@@ -44,7 +45,8 @@ nav a:hover {
 }
 
 .hero {
- background: linear-gradient(to right, #ff9a9e, #fad0c4);
+ background: linear-gradient(to right, #a8edea, #d0bdf4);
+
 
   padding: 60px 20px;d: linear-gradient(
   text-align: center;
