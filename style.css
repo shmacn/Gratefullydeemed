@@ -66,3 +66,21 @@ footer {
   text-align: center;
   padding: 20px;
 }
+.logo-banner {
+  background-color: #fffdf5;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.banner-logo {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.brand-bio {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
